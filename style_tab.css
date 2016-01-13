@@ -81,6 +81,7 @@ span.kawaii_line{
 
 .container_mt0{
 	width: 1000px;
+	/*background-color: #aff;*/
 	margin: 0 auto;
 }
 
@@ -658,7 +659,7 @@ span.wpcf7-list-item{
 
 .home_container>#h2title>span{
 	display: block;
-	width: 400px;
+	width: 300px;
 	font-family: 'Nixie One', cursive;
 	font-size: 50px;
 	line-height: 50px;
@@ -685,14 +686,14 @@ article.home section{
 }
 
 article.home section p{
-	color: #555;
+	color: #999;
 	font-size: 14px;
 	line-height: 30px;
 }
 
 article.home section ul{
 	width: 400px;
-	border: 1px solid #555;
+	border: 1px solid #999;
 	margin: 30px auto 0;
 }
 
@@ -700,7 +701,7 @@ article.home section ul li{
 	list-style-type: none;
 	font-size: 13px;
 	text-align: center;
-	color: #555;
+	color: #999;
 	margin-top: 15px;
 }
 

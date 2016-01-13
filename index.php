@@ -1,17 +1,16 @@
 
 <?php get_header(); ?>
 
-<div class="clear"></div>
-	<div class="container" id="content">
+
 <?php if(is_single() ): ?>
 	<!-- シングルページには何も表示しません -->
 <?php else: ?>
-		<h2><span>weblog</span></h2>
+		<h2 id="h2title"><span>weblog</span></h2>
 		<p class="hitokoto">eigo de comment please ! nice comment</p>
 <?php endif; ?>
 	<div class="clear"></div>
 
-		<article>
+		<article class="index_article">
 			<?php if(is_single() ): ?>
 					<!-- シングルページには何も表示しません -->
 			<?php else: ?>
@@ -69,9 +68,7 @@
 
 <div class="clear"></div>
 
-	</div><!-- container -->
 
-<div class="clear"></div>
 
 
 

@@ -1,0 +1,443 @@
+/*
+font-family: 'Nixie One', cursive, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+font-family: 'Nixie One', cursive;
+	font-weight: bold;
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{/*'游ゴシック','游ゴシック体','Yu Gothic',YuGothic,*/
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+	height: 100%;
+}
+
+.container{
+	width: 100%;
+}
+
+.container_mt0{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+p{
+	font-size: 10.5px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/*いらないもの*/
+
+.header_title_home_img {
+	display: none;
+}
+
+
+
+
+/*-----------------------ヘッダ----------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+
+/*------------------------ナビ---------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+nav.header_nav{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 37px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav.header_nav div.container_mt0{
+	background-color: #fff;
+	width: 80%;
+	height: 100%;
+	z-index: 1000;
+	position: fixed;
+	left: -80%;
+	top: -45px;
+	padding-bottom: 45px;
+}
+
+nav.header_nav div.container_mt0.appear{
+	left: 0;
+}
+
+.smartphone.toggle_nav_i{
+	padding: 0 10px;
+	font-size: 30px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.smartphone.fa.fa-times{
+	margin-top: 45px;
+	margin-left: 10px;
+	font-size: 30px;
+	z-index: 1100;
+	cursor: pointer;
+}
+
+#content{
+	/*background-color: rgba(0,0,0,0.2);*/
+}
+
+/*クリックでbgが暗くなる*/
+
+header .menushade{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.6;
+}
+
+/*ナビ中身*/
+.menu-navmenu-container{
+}
+
+.menu-navmenu-container ul{
+	margin: 0 auto;
+	list-style-type: none;
+	border-bottom: 1px solid #000;
+	width: 80%;
+	font-family: 'Nixie One', cursive, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+	font-weight: bold;
+}
+
+.menu-navmenu-container ul li{
+	margin-bottom: 6px;
+}
+
+.menu-navmenu-container ul li>a{
+	display: block;
+	font-size: 15px;
+	width: 80%;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header_nav .container_mt0 ul li>a>p{/*ホームとかの日本語文字*/
+	font-size: 10px;
+	height: 11px;
+	line-height: 11px;
+	font-weight: normal;
+}
+
+ul.smartphone{
+	list-style-type: none;
+	margin: 0 auto;
+	width: 130px;
+	font-size: 10px;
+	text-align: center;
+	font-family: 'Nixie One', cursive, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;
+	font-weight: bold;
+	margin-top: 16px;
+}
+
+ul.smartphone li{
+	margin-bottom: 4px;
+}
+
+/*------------------------コンテンツ---------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+.home_container{
+	width: 100%;
+	z-index: 100;
+	display: block;
+	margin-top: 45px;
+}
+
+.home .wrapper #content .home_container #h2title{
+/*	background-image: url(material/line.png);
+	background-repeat: repeat-x;*/
+	width: 100%;
+	height: 142px;
+/*	background-position: center 50%;*/
+}
+
+.home .wrapper #content .home_container #h2title span{
+	text-align: center;
+	width: 200px;
+	height: 142px;
+	line-height: 142px;
+	margin: 0 auto;
+	display: block;
+	background-color: #fff;
+	font-family: 'Nixie One', cursive;
+}
+
+
+
+.smartphone img{
+	width: 100%;
+}
+
+article.home h3{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+article.home section{
+	margin: 0 auto;
+}
+
+article.home section p{
+	width: 85%;
+	margin: 0 auto;
+	line-height: 1.75em;
+	margin-bottom: 10px;
+}
+
+article.home section ul{
+	width: 75%;
+	padding: 0 20px;
+	margin: 30px auto;
+	list-style-type: none;
+	font-size: 11.5px;
+	text-align: center;
+	border: 1px solid #aaa;
+}
+
+article.home section ul li{
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+article.home section ul li:first-child{
+	padding-top: 15px;
+}
+
+article.home section ul li:last-child{
+	padding-bottom: 20px;
+}
+/*--------------------------フッター-------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+footer{
+	background-image: url(material/redberry2.jpg);
+	-webkit-background-size: 200%;
+	background-size: 200%;
+	background-repeat: no-repeat;
+}
+
+
+.footerbg{
+	background: linear-gradient(#fff , rgba(255,255,255,0.2));
+}
+
+footer small{
+	font-size: 10px;
+	font-family: 'Nixie One', cursive;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	background-color: #fff;
+	padding: 5px 0;
+}
+
+
+/*フッターナビ*/
+nav.footer_nav ul{
+	padding-top: 30px;
+	text-align: center;
+}
+
+nav.footer_nav ul li{
+	list-style-type: none;
+}
+
+nav.footer_nav ul li a{
+	font-size: 13px;
+	color: #000;
+}
+
+/*-----------------------front-page.php----------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+
+
+
+/*------------------------index.php---------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+
+
+/*-----------------------page.php----------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+div#content.container{/*こいつが大本のdiv*/
+	width: 100%;
+	z-index: 100;
+	display: block;
+	margin-top: 45px;
+}
+
+div#content.container #h2title{
+	background-image: url(material/line.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 40px;
+	background-position: center 50%;
+}
+
+div#content.container #h2title span{
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	display: block;
+	background-color: #fff;
+	font-family: 'Nixie One', cursive;
+}
+
+div#content.container #h2title span a img{
+	width: 200px;
+}
+
+p.hitokoto{
+	text-align: center;
+	font-family: 'Nixie One', cursive;
+	font-size: 11.5px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+article.kotei_article{
+	width: 100%;
+}
+
+article.kotei_article div.report{
+	width: 100%;
+}
+
+article.kotei_article div.report p{
+	width: 85%;
+	margin: 0 auto;
+	line-height: 1.75em;
+	margin-bottom: 10px;
+}
+
+
+/*フォーム*/
+.wpcf7-form{
+	width: 80%;
+	background-image: url(material/jasmine/p_b_ornament_116_0M.png);
+	background-repeat: repeat-x;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.wpcf7-form p span{
+}
+
+.wpcf7-form p label{
+	background-image: url(material/jasmine/b_simple_124_6S.png);
+	background-repeat: repeat-x;
+	background-position: 0 bottom;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+.wpcf7-text{
+	width: 150px;
+}
+
+.wpcf7-select{
+	width: 180px;
+}
+
+.wpcf7-select option{
+	font-size: 11px;
+}
+
+.wpcf7-textarea{
+	width: 150px;
+}
+
+/*----------------reservation-----------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+#gallery-1{
+	width: 100%;
+}
+
+#gallery-1.galleryid-93.gallery-columns-4.gallery-size-medium .gallery-item{
+	width: 100%;
+}
+
+#gallery-1 dl:nth-child(n+2){
+	display: none;
+}
+
+#gallery-1 dl:first-child img{
+	border: none;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+/*---------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
